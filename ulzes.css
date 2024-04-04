@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Sixtyfour;
+	color: darkblue;
+}
+#pudelko {
+	margin: auto;
+	width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    border: 0px solid #555;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 0px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: white;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#logo {
+	height: 100px;
+	background-color: gray;
+}
+#menu {
+	width: 40%;
+	height: 400px;
+	float: right;
+	background-color: white;
+}
+#tresc {
+	width: 60%;
+	height: 400px;
+	float: right;
+	background-color: silver;
+}
+#stopka {
+	background-color: gray;
+	clear: both;
+	height: 50px;
